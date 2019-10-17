@@ -21,6 +21,8 @@ public class Main {
         f = 9;
         int answer3 = findMax(e, f);
         System.out.println(answer3);
+        String answer4= flipOrder("Hello", "Isancor");
+        System.out.println(answer4);
 
 
     }
@@ -50,5 +52,9 @@ public class Main {
 
 
 
+            }
+
+    public static String flipOrder(String Hello, String Isancor) {
+        return Isancor +  Hello;
     }
-}
+    }
